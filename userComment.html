@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting system - Commenting Page</title>
+
+    <!--------------------SYSTEM LOGO ICON-------------------------->
+    <link rel="shortcut icon" type="image/x-icon" href="./image/ustp-logo.jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="./style/userComment.css">
+
+
+    <link rel="stylesheet" type="text/css" href="./root/rootLayout.css">
+
+</head>
+<body>
+
+  <header>    
+    <div class="header-container">
+        <div class="header-announcement-section">
+            <div class="header-announcement_margin-wrapped">
+            <div class="header-announcement-paragraph"><span>Announcement: </span> Start of Voting November 1 2023</div>
+        </div>
+        </div>
+    <div class="header-navbar-section"> 
+    <div class="header-margin-wrapped">
+        <div class="header-branch-section-wrapped">
+            <a href="./home.html"><img href="" src="./image/ustp-logo.jpg" width="50" height="50" alt=""></a>
+            <div class="header-title">Supreme Pupil/Student Government Election System</div>
+        </div>
+        <div class="header-space-between"></div>
+        <div class="header_link-section">
+        <div class="header-user">Princess Fiona <i class="fa fa-sort-desc" aria-hidden="true"></i>
+            <ul>
+                <li>Personal Details</li>
+                <a href="./index.html"><li>Logout</li></a>
+            </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>  
+  </header>
+
+
+
+<main>
+  <div class="main-container">
+    
+    <div class="comment-section">
+        <div class="comment-section_header-title">COMMENT SECTION</div>
+        <div class="commentContainer" id="commentContainer"></div>
+        
+        <div class="comment-form">
+          <div class="comment-form_header-title">Leave a Comment</div>
+          <textarea id="commentText" placeholder="Write your comment" rows="12"></textarea>
+          <button onclick="submitComment()">Submit</button>
+        </div>
+      </div>
+
+  </div>
+</main>
+      <script src="./src/userComment.js"></script>
+
+    
+</body>
+</html>

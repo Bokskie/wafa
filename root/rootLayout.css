@@ -1,0 +1,57 @@
+:root
+{
+    --primary-color:#16163f;
+    --secondary-color: #fcb316;
+    --cl-dark-color: #000000;
+    --cl-primary-white-color: #ffffff;
+    --cl-secondary-white-color: #ebebeb;
+    --cl-secondary-white-color-10: #dfdfdf;
+    --cl-gray-color: #9b9b9b;
+    --cl-secondary-gray-color: #9b9b9bee;
+    --cl-red-color: #ff0000;
+    --cl-light-red-color-10: #ff6262;
+    --cl-black-red-color-20: #8b1c1c;
+    --cl-green-color: #00ff2a;
+    --cl-light-green-color-10: #6bff58;
+    --cl-dark-green-color-20: #10ad32;
+    --cl-blur-green-color-30: #10ad32c5;
+    --cl-blue-color: #1100ff;
+    --cl-light-blue-color-10: #665cff;
+    --cl-dark-blue-color-20: #150c8d;
+    --cl-purple-color: #8c00ff;
+    --cl-light-purple-color-10: #a35cdd;
+    --cl-dark-purple-color-20: #4d127e;
+    --cl-yellow-color: #fffb00;
+    --cl-light-yellow-color-10: #faf86e;
+    --cl-dark-yellow-color-20: #777513;
+    --cl-orange-color: #ff6600;
+    --cl-light-orange-color-10: #e98644;
+    --cl-dark-orange-color-20: #914a1c;
+    --cl-pink-color: #ff00f2;
+    --cl-light-pink-color-10: #ff5bf7;
+    --cl-dark-pink-color-20: #85147f;
+    --fs-super-small: 13px;
+    --fs-small: 13px;
+    --fs-x-small: 16px;
+    --fs-medium: 18px;
+    --fs-normal: 22px;
+    --fs-large: 28px;
+    --fs-x-large: 36px;
+    --ff-primary-font-family: 'Poppins', sans-serif;
+    --ff-logo-font-family: 'Ruda', sans-serif;
+    --ff-normal-font-family: sans-serif;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+:after, :before
+{
+    box-sizing: border-box;
+}
+body 
+{
+    background-color: rgb(241, 241, 241);
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+}

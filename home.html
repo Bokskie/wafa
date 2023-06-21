@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Voting System</title>
+
+  <!--------------------SYSTEM LOGO ICON-------------------------->
+  <link rel="shortcut icon" type="image/x-icon" href="./image/ustp-logo.jpg">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="./root/rootLayout.css">
+
+  <link rel="stylesheet" type="text/css" href="./style/home.css">
+</head>
+<body>
+
+  <header>    
+    <div class="header-container">
+        <div class="header-announcement-section">
+            <div class="header-announcement_margin-wrapped">
+            <div class="header-announcement-paragraph"><span>Announcement: </span> Start of Voting November 1 2023</div>
+        </div>
+        </div>
+    <div class="header-navbar-section"> 
+    <div class="header-margin-wrapped">
+        <div class="header-branch-section-wrapped">
+            <a href="./home.html"><img href="" src="./image/ustp-logo.jpg" width="50" height="50" alt=""></a>
+            <div class="header-title">Supreme Pupil/Student Government Election System</div>
+        </div>
+        <div class="header-space-between"></div>
+        <div class="header_link-section">
+        <div class="header-comment-section"><a href="./userComment.html">Comment</a></div>
+        <div class="header-user">Princess Fiona <i class="fa fa-sort-desc" aria-hidden="true"></i>
+            <ul>
+                <li>Personal Details</li>
+                <a href="./index.html" target="_blank"><li>Logout</li></a>
+            </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>  
+  </header>
+
+<main>
+  <div class="main-container">
+  <div class="main-container_header-title-section">Ballot form</div>
+  <div class="main-container_margin-wrapped-section">
+    <div class="tabs_container">
+      
+      <div class="main-container_department-title-section">DEPARTMENTS:</div>
+      
+
+          <button class="tabs_button tabs_button--active" data-for-tab="1">
+              <h2>IT</h2>
+          </button>
+      
+          <button class="tabs_button" data-for-tab="2">
+              <h2>MET</h2>
+          </button>
+      
+          <button class="tabs_button" data-for-tab="3">
+              <h2>ESM</h2>
+          </button>
+      
+          <button class="tabs_button" data-for-tab="4">
+              <h2>TCM</h2>
+          </button>
+
+          <button class="tabs_button" data-for-tab="5">
+              <h2>NAME</h2>
+          </button>
+      
+        </div>  
+    
+
+        <div class="main-container_wrapped-center-content">
+        <div class="main-container_ssg-title-section">SSG Positions</div>        
+        <div class="tabs_content tabs_content--active" data-tab="1">
+          <table id="candidatesTable" class="candidates-table">
+            <thead>
+              <tr>
+                <th>Position</th>
+                <th>Name</th>
+                <th>Party List</th>
+                <th>Vote</th>
+              </tr>
+            </thead>
+            <tbody id="candidatesTableBody">
+              <tr>
+                <td class="candidate-position">President</td>
+              </tr>
+              <tr>
+                <td>President</td>
+                <td>Bryant C. Baguinat</td>
+                <td>Pag Laum</td>
+                <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="president_john_doe">
+              </td>
+              </tr>
+              <tr>
+                <td>President</td>
+                <td>Papi L. Cholo</td>
+                <td>Pag Amping</td>
+                <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith">
+                </td>
+              </tr>
+              <tr>
+                <td class="candidate-position">Vice President Internal</td>
+              </tr>
+              <tr>
+                <td>Vice President Internal</td>
+                <td>Jane Da V. irgin</td>
+                <td>Pag Laum</td>
+                <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+              </tr>
+              <tr>
+                <td>Vice President Internal</td>
+                <td>Vanessa F.  Jane</td>
+                <td>Pag Amping</td>
+                <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+              </tr>
+              <tr>
+                <td class="candidate-position">Vice President External</td>
+              </tr>
+              <tr>
+                <td>Vice President External</td>
+                <td>Clara A. Wafa</td>
+                <td>Wa'y Pag-asa</td>
+                <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+              </tr>
+              <tr>
+                <td>Vice President External</td>
+                <td>Shaira P. Viewtipol</td>
+                <td>Pag Amping</td>
+                <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+              </tr>
+              <tr>
+                <td class="candidate-position">Secretary</td>
+              </tr>
+              <tr>
+                <td>Secretary</td>
+                <td>Cris S. Mercy</td>
+                <td>Pag Laum</td>
+                <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+              </tr>
+              <tr>
+                <td>Secretary</td>
+                <td>Ralf B. Davis</td>
+                <td>Pag Amping</td>
+                <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+              </tr>
+              <tr>
+                <td class="candidate-position">General Treasure</td>
+              </tr>
+              <tr>
+                <td>General Treasurer</td>
+                <td>Joy A. Granada</td>
+                <td>Pag Laum</td>
+                <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+              </tr>
+              <tr>
+                <td>General Treasurer</td>
+                <td>Princess L. Manoban</td>
+                <td>Pag Amping</td>
+                <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+              </tr>
+              <tr>
+                <td class="candidate-position">Auditor</td>
+              </tr>
+              <tr>
+                <td>Auditor</td>
+                <td>Elisho P. Maestrado</td>
+                <td>Pag Laum</td>
+                <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+              </tr>
+              <tr>
+                <td>Auditor</td>
+                <td>Ellysha A. Mabini</td>
+                <td>Pag Amping</td>
+                <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+              </tr>
+              <tr>
+                <td class="candidate-position">PIO</td>
+              </tr>
+              <tr>
+                <td>PIO</td>
+                <td>Papalando T. Samkahoy</td>
+                <td>Pag Laum</td>
+                <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+              </tr>
+              <tr>
+                <td>PIO</td>
+                <td>Pablo H. Mercedes</td>
+                <td>Pag Amping</td>
+                <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+              </tr>
+              <tr>
+                <td class="candidate-position">Assistant Treasurer</td>
+              </tr>
+              <tr>
+                <td>Assistant Treasurer</td>
+                <td>Utoh Da. Gambler</td>
+                <td>Pag Laum</td>
+                <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+              </tr>
+              <tr>
+                <td>Assistant Treasurer</td>
+                <td>Blaire John Y. Almonicid</td>
+                <td>Pag Amping</td>
+                <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+              </tr>
+            </tbody>
+          </table>
+          <button onclick="submitVotes()">Submit Votes</button>
+          <button type="button" onclick="openModal()">View</button>
+
+</div>
+
+      <div class="tabs_content" data-tab="2">
+          <div class="main-container_header-title">
+              After 1 month
+          </div>
+
+
+      </div>
+
+      <div class="tabs_content tabs_content--active" data-tab="3">
+        <table id="candidatesTable" class="candidates-table">
+          <thead>
+            <tr>
+              <th>Position</th>
+              <th>Name</th>
+              <th>Party List</th>
+              <th>Vote</th>
+            </tr>
+          </thead>
+          <tbody id="candidatesTableBody">
+            <tr>
+              <td class="candidate-position">President</td>
+            </tr>
+            <tr>
+              <td>President</td>
+              <td>Bryant C. Baguinat</td>
+              <td>Pag Laum</td>
+              <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="president_john_doe">
+            </td>
+            </tr>
+            <tr>
+              <td>President</td>
+              <td>Ellysha Mae Lao</td>
+              <td>Pag Amping</td>
+              <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith">
+              </td>
+            </tr>
+            <tr>
+              <td class="candidate-position">Vice President</td>
+            </tr>
+            <tr>
+              <td>Vice President</td>
+              <td>Dimple Tabunan</td>
+              <td>Pag Laum</td>
+              <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+            </tr>
+            <tr>
+              <td>Vice President</td>
+              <td>Vanessa F.  Jane</td>
+              <td>Pag Amping</td>
+              <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+            </tr>
+            <tr>
+              <td class="candidate-position">Vice President External</td>
+            </tr>
+            <tr>
+              <td>Vice President External</td>
+              <td>Clara A. Wafa</td>
+              <td>Wa'y Pag-asa</td>
+              <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+            </tr>
+            <tr>
+              <td>Vice President External</td>
+              <td>Shaira P. Viewtipol</td>
+              <td>Pag Amping</td>
+              <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+            </tr>
+            <tr>
+              <td class="candidate-position">Secretary</td>
+            </tr>
+            <tr>
+              <td>Secretary</td>
+              <td>Jenny Shane Tagarda</td>
+              <td>Pag Laum</td>
+              <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+            </tr>
+            <tr>
+              <td>Secretary</td>
+              <td>Ralf B. Davis</td>
+              <td>Pag Amping</td>
+              <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+            </tr>
+            <tr>
+              <td class="candidate-position">General Treasure</td>
+            </tr>
+            <tr>
+              <td>General Treasurer</td>
+              <td>Joy A. Granada</td>
+              <td>Pag Laum</td>
+              <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+            </tr>
+            <tr>
+              <td>General Treasurer</td>
+              <td>Princess L. Manoban</td>
+              <td>Pag Amping</td>
+              <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+            </tr>
+            <tr>
+              <td class="candidate-position">Auditor</td>
+            </tr>
+            <tr>
+              <td>Auditor</td>
+              <td>Elisho P. Maestrado</td>
+              <td>Pag Laum</td>
+              <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+            </tr>
+            <tr>
+              <td>Auditor</td>
+              <td>Denise Anne Paulette Cabeltes</td>
+              <td>Pag Amping</td>
+              <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+            </tr>
+            <tr>
+              <td class="candidate-position">PIO</td>
+            </tr>
+            <tr>
+              <td>PIO</td>
+              <td>Papalando T. Samkahoy</td>
+              <td>Pag Laum</td>
+              <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+            </tr>
+            <tr>
+              <td>PIO</td>
+              <td>Justine Calibay</td>
+              <td>Pag Amping</td>
+              <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+            </tr>
+            <tr>
+              <td class="candidate-position">Treasurer</td>
+            </tr>
+            <tr>
+              <td>Assistant</td>
+              <td>Utoh Da. Gambler</td>
+              <td>Pag Laum</td>
+              <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+            </tr>
+            <tr>
+              <td>Assistant</td>
+              <td>Normena Hadji Malic</td>
+              <td>Pag Amping</td>
+              <td><input type="checkbox" class="candidateCheckbox" name="candidate" value="vp_jane_smith"></td>
+            </tr>
+          </tbody>
+        </table>
+        <button onclick="submitVotes()">Submit Votes</button>
+        <button type="button" onclick="openModal()">View</button>
+
+</div>
+     
+      <div class="tabs_content" data-tab="4">   
+          
+          <div class="main-container_header-title">
+              Back to normal
+
+          </div>
+
+    </div>
+      <div class="tabs_content" data-tab="5">   
+          
+          <div class="main-container_header-title">
+              Memorable september in my life
+          </div>
+
+  
+      </div>
+
+</div>
+</div>
+</div>
+
+
+
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="main-container_review-section">
+      <div class="main-container_review-section_margin-wrapped"> 
+         <div class="main-container_header-table-action">Table Actions</div>
+      <div id="voteResults" style="display: none;">
+        <div class="main-container_review-header-section">Your Vote</div>
+        <table id="voteResultsTable" class="candidates-table">
+          <thead>
+            <tr>
+              <th>Position</th>
+              <th>Name</th>
+              <th>Team</th>
+              <th>Change</th>
+            </tr>
+          </thead>
+          <tbody id="voteResultsBody"></tbody>
+        </table>
+      </div>
+      <button type="button" onclick="finish()">Finish</button>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+</main>
+
+<script src="./src/viewVote.js"></script>
+  <script src="./src/votingSystem.js"></script>
+  <script src="./src/recieveData.js"></script>
+  <script src="./src/pageSwitcher.js"></script>
+</body>
+</html>
+
+

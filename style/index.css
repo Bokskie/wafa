@@ -1,0 +1,73 @@
+main 
+{
+    position: relative;
+    top: 4rem;
+    margin: 0 auto;
+    width: 450px;
+    background-color: #ffffff;
+    box-shadow: 1px 3px 1px 4px #e2e2e2;
+}
+.main-container_margin-wrapped
+{
+    margin: auto;
+    width: 350px;
+}
+.main-container-login-form
+{
+    padding: 10px 0px 10px 0px;
+}
+.main-container-login-form .main-container_logo 
+{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.main-container-login-form form 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 10px 0px 10px 0px;
+}
+.main-container-login-form form .main-container_input-wrapped
+{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--primary-color);
+    box-shadow: 3px 2px 1px 2px var(--primary-color);
+    border-radius: 0.6rem;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 10px 6px 10px;
+}
+.main-container-login-form form .main-container_input-wrapped i 
+{
+    font-size: var(--fs-medium);
+}
+.main-container-login-form form .main-container_input-wrapped input 
+{
+    border: none;
+    opacity: 1;
+    outline: none;
+    padding: 8px;
+    width: 100%;
+    font-weight: 550;
+}
+.main-container-login-form form button
+{
+    background-color: var(--secondary-color);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 0.6rem;
+    box-shadow: 3px 3px 2px 2px var(--primary-color);
+    font-size: var(--fs-small);
+    font-weight: 550;
+}
+.main-container-login-form a 
+{
+    color: var(--primary-color);
+    text-align: center;
+    font-size: var(--fs-x-small);
+    font-weight: 550;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

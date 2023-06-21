@@ -1,0 +1,166 @@
+header 
+{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.header-container
+{
+    background-color: #ffffff;
+}
+/*------------HEADER ANNOUNCEMENT SECTION---------*/
+.header-announcement-section
+{
+    background-color: #16163f;
+    padding: 10px 0px 10px 0px;
+}
+.header-announcement_margin-wrapped
+{
+    width: 1200px;
+    margin: auto;   
+}
+.header-announcement-paragraph
+{
+    text-align: center;
+    color: #ffffff;
+}
+.header-announcement-paragraph span 
+{
+    color: #fcb316;
+}
+/*----------HEADER NAVBAR SECTION----------*/
+.header-navbar-section
+{
+    padding: 10px 0px 10px 0px;
+    box-shadow: 2px 1px 11px 3px #16163f;
+}
+.header-margin-wrapped
+{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-branch-section-wrapped
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-space-between
+{
+    flex: 1;
+}
+.header-user 
+{
+    align-items: center;
+    cursor: pointer;
+}
+.header-user ul
+{
+    position: absolute;
+    right: 36px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    width: 160px;
+    height: 108px; 
+    display: none;
+    line-height: 54px;
+    cursor: pointer;
+    font-size: var(--fs-small);
+    z-index: 100;
+}
+.header-user:hover ul
+{
+    display: block;
+}
+.header-user ul li
+{
+    padding: 0px 10px 0px 10px;
+    list-style: none;
+    font-size: var(--fs-x-small);
+}
+.header-user ul a
+{
+    text-decoration: none;
+    color: #000;
+}
+.header-user ul li:hover
+{
+    background-color: #fcb316;
+}
+/*-------SIDEBAR----------*/
+aside 
+{
+    position: fixed;
+    top: 6.8rem;
+    background-color: #ffffff   ;
+    width: 160px;
+    height: 100%;
+}
+/*-------MAIN CONTAINER-----------*/
+main 
+{
+    position: relative;
+    top: 6.8rem;
+    left: 160px;
+    width: calc(100% - 160px);
+}
+.main-container_table-content
+{
+    position: relative;
+    top: 3rem;
+    background-color: #ffffff;
+    width: 1100px;
+    margin: auto;
+    height: 500px;
+}
+.main-container_table-content_margin-wrapped
+{
+    width: 1000px;
+    margin: auto;
+}
+.main-container_header-title
+{
+    font-size: var(--fs-medium);
+    font-weight: 550;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+.main-container_table-content table 
+{
+    border: 1px solid var(--primary-color);
+    width: 1000px;
+}
+.main-container_table-content table tbody
+{
+    border: 1px solid var(--primary-color);
+}
+.main-container_table-content table th 
+{
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: var(--secondary-color);
+    font-size: var(--fs-medium);
+    padding: 10px 0px 10px 0px;
+}
+.main-container_table-content table td 
+{
+    border-bottom: 1px solid var(--primary-color);
+    padding: 10px;
+}
+.main-container_table-content .dataCount
+{
+    margin-top: 2rem;
+    font-size: var(--fs-medium);
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background: #16163f;
+    border: 1px solid var(--primary-color);
+    color: var(--secondary-color);
+}
+/* -----------------EDIT CANDIDATES-------*/
+

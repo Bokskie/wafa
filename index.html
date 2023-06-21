@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting System Login</title>
+
+    
+    <!--------------------SYSTEM LOGO ICON-------------------------->
+    <link rel="shortcut icon" type="image/x-icon" href="./image/ustp-logo.jpg">
+
+    <!--------------------FONT AWESOME 4.7-------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--------------------GLOBAL ROOT LAYOUT-------------------------->
+    <link rel="stylesheet" type="text/css" href="./root/rootLayout.css">
+
+     <!--------------------MAIN STYLE-------------------------->
+     <link rel="stylesheet" type="text/css" href="./style/index.css">
+
+</head>
+<body>
+    
+    <main class="main-container">
+        <div class="main-container_margin-wrapped">
+            <div class="main-container-login-form">
+                <div class="main-container_logo">
+                    <img src="./image/ustp-logo.jpg" width="250" height="200" alt="USTP-logo">
+                </div>
+                <form action="./home.html" method="post">
+                    <div class="main-container_input-wrapped">
+                        <i class="fa fa-user" aria-hidden="true"></i><input type="text" id="username" placeholder="Username" required>
+                    </div>
+
+                    <div class="main-container_input-wrapped">
+                        <i class="fa fa-lock" aria-hidden="true"></i><input type="password" id="password" placeholder="Password" required>
+                    </div>
+
+                    <button onclick="loginBtn()">Login</button>
+
+                    <a href="./admin.html">Administrators Login</a>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/index.js"></script>
+</body>
+</html>

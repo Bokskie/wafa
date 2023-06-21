@@ -1,0 +1,175 @@
+header 
+{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.header-container
+{
+    background-color: #ffffff;
+}
+/*------------HEADER ANNOUNCEMENT SECTION---------*/
+.header-announcement-section
+{
+    background-color: #16163f;
+    padding: 10px 0px 10px 0px;
+}
+.header-announcement_margin-wrapped
+{
+    width: 1200px;
+    margin: auto;   
+}
+.header-announcement-paragraph
+{
+    text-align: center;
+    color: #ffffff;
+}
+.header-announcement-paragraph span 
+{
+    color: #fcb316;
+}
+/*----------HEADER NAVBAR SECTION----------*/
+.header-navbar-section
+{
+    padding: 10px 0px 10px 0px;
+    box-shadow: 2px 1px 11px 3px #16163f;
+}
+.header-margin-wrapped
+{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-branch-section-wrapped
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-space-between
+{
+    flex: 1;
+}
+/*-------HEADER LINK SECTION -------------*/
+.header-user 
+{
+    align-items: center;
+    cursor: pointer;
+}
+.header-user ul
+{
+    position: absolute;
+    right: 36px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    width: 160px;
+    height: 108px; 
+    display: none;
+    line-height: 54px;
+    cursor: pointer;
+    font-size: var(--fs-small);
+    z-index: 100;
+}
+.header-user:hover ul
+{
+    display: block;
+}
+.header-user ul li
+{
+    padding: 0px 10px 0px 10px;
+    list-style: none;
+    font-size: var(--fs-x-small);
+}
+.header-user ul a
+{
+    text-decoration: none;
+    color: #000;
+}
+.header-user ul li:hover
+{
+    background-color: #fcb316;
+}
+/*-----MAIN CONTAINER----------*/
+main 
+{
+    position: relative;
+    top: 6.8rem;
+}
+.main-container
+{
+    position: relative;
+    top: 4rem;
+    background-color: #ffffff;
+    width: 1200px;
+    margin: auto;
+    padding: 0 0 20px 0;
+}
+.main-container .comment-section
+{
+    width: 1100px;
+    margin: auto;
+}
+.main-container .comment-section .commentContainer
+{
+    background-color: #16163f;
+    padding: 10px 10px 10px 10px;
+}
+.main-container .comment-section .commentContainer p
+{
+    color: var(--primary-color);
+    font-size: var(--fs-x-small);
+    padding: 0 0 20px 10px;
+    background-color: #ffffff;   
+}
+.main-container .comment-section .commentContainer h1 
+{
+    font-size: var(--fs-medium);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border-bottom: 5px solid #ffffff;
+    padding: 0 0 0 10px;
+}
+.main-container .comment-section .commentContainer h2
+{
+    font-size: var(--fs-medium);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 0 0 0 10px;
+}   
+.comment-section_header-title
+{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-size: var(--fs-medium);
+    font-weight: 550;
+}
+.main-container .comment-form
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+.comment-form_header-title
+{
+    color: var(--secondary-color);
+    padding: 6px 0 6px 0;
+}
+.main-container .comment-form button
+{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 6px;
+}
+.main-container .comment-form button:hover 
+{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-bottom: 1px solid #ffffff;
+}
